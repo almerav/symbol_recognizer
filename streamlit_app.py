@@ -23,6 +23,7 @@ def app():
     st.write('Number of features: 64')
     st.write('Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.')
     st.write('Target variable: This could be a single categorical variable representing the class of the image.')
+    st.write(text)
     st.write('Potential Applications:')
     st.write('This dataset could be used to train a machine learning model to recognize emotions of creepers in images or videos for art or other creative content')
     st.write(text)
