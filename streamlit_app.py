@@ -18,7 +18,7 @@ def app():
     st.subheader('by Almera Valladolid, BSCS 3B - AI')
     st.write('The naive bayes classifier performs well on overlapped data.')
 
-    st.write('Dataset description:')
+    st.write('DATASET DESCRIPTION:')
 
     st.write('Number of features: 64')
     st.write('Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.')
