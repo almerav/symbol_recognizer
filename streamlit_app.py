@@ -21,15 +21,13 @@ def app():
     st.write('Dataset description:')
 
     st.write('Number of features: 64')
-    text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image.
-        Target variable: This could be a single categorical variable representing the class of the image (e.g., digit recognition, traffic sign classification).
-        Potential Applications:"""
+    text = """Feature representation: Binary values (1 or 0) representing the 8x8 pixels of an image."""
+    text = """Target variable: This could be a single categorical variable representing the class of the image."""
+    text = """Potential Applications:"""
+    text = """This dataset could be used to train a machine learning model to recognize emotions of creepers in images or videos for art or other creative content"""
     st.write(text)
-    st.write('Digit recognition: Identifying handwritten digits from 0-9.')
-    st.write('Traffic sign classification: Classifying different types of traffic signs.')
-    st.write('Character recognition: Recognizing characters from different alphabets.')
-    st.write("""Simple image classification: Classifying simple images into categories
-             like animal/non-animal, vehicle/non-vehicle, etc.""")
+    st.write('This dataset consists of images of creeper faces depicting four emotions: sad, happy, angry, and neutral.')
+   
 
     # display choice of classifier
     clf = BernoulliNB()
