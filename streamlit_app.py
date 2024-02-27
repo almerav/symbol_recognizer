@@ -25,7 +25,7 @@ def app():
     st.write('Target variable: This could be a single categorical variable representing the class of the image.')
     st.write(text)
     st.write('Potential Applications:')
-    st.write('This dataset could be used to train a machine learning model to recognize emotions of creepers in images or videos for art or other creative content.')
+    st.write('This dataset could be used to train a machine learning model to recognize emotions of creepers.')
     st.write(text)
     st.write('This dataset consists of images of creeper faces depicting four emotions: sad, happy, angry, and neutral.')
    
